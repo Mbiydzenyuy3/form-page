@@ -8,11 +8,16 @@ body {
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 200;
+  line-height: 24px;
   font-style: normal;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+  background-image: url("assets/pexels-olia-danilevich-4974922.jpg");
+  background-repeat: none;
+  background-size: cover;
+  filter: brightness(50%);
 }
 
 .container {
