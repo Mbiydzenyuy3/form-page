@@ -8,11 +8,13 @@ body {
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 200;
+  line-height: 24px;
   font-style: normal;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+  background-image: url("assets/pexels-mikhail-nilov-7988747.jpg");
 }
 
 .container {
