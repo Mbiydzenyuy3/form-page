@@ -4,16 +4,18 @@
   padding: 0;
 }
 
+#overlay {
+  background: fixed;
+  background: linear-gradient(rgba(4, 0, 0, 0.76));
+}
+
 body {
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 200;
   line-height: 24px;
   font-style: normal;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
+  margin: 40px;
   background-image: url("../assets/pexels-olia-danilevich-4974922.jpg");
   background-repeat: none;
   background-size: cover;
@@ -21,9 +23,9 @@ body {
 }
 
 .container {
-  width: 40rem;
-  display: flex;
-  flex-direction: column;
+  width: 75%;
+  padding: 2.5rem;
+  margin: auto;
   background-color: #190234;
   color: #fff;
 }
@@ -43,8 +45,6 @@ p {
 }
 
 form {
-  width: 75%;
-  margin: auto;
   display: flex;
   flex-direction: column;
 }
