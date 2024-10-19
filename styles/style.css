@@ -6,7 +6,7 @@
 
 body {
   font-size: 1rem;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-style: normal;
   display: flex;
@@ -19,8 +19,8 @@ body {
   width: 40rem;
   display: flex;
   flex-direction: column;
-  background-color: rgb(33, 4, 113);
-  color: white;
+  background-color: #190234;
+  color: #fff;
 }
 
 h1 {
