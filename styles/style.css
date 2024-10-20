@@ -19,6 +19,9 @@ body {
   background-image: url("../assets/pexels-olia-danilevich-4974922.jpg");
   background-size: cover;
   background-position: center;
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #4f945b;
+  --sb-size: 20px;
 }
 
 .container {
@@ -67,9 +70,11 @@ textarea {
 .submit {
   padding: 1em;
   margin-bottom: 1.3rem;
-  background-color: green;
+  background-color: #09ac24;
   border: none;
-  color: white;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 1.5rem;
 }
 
@@ -96,12 +101,6 @@ textarea {
 .check10 {
   width: 2rem;
   padding-left: 1em;
-}
-
-body {
-  --sb-track-color: #232e33;
-  --sb-thumb-color: #4f945b;
-  --sb-size: 20px;
 }
 
 body::-webkit-scrollbar {
