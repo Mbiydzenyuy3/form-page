@@ -5,19 +5,18 @@
 }
 
 #overlay {
-  background: fixed;
-  background: linear-gradient(rgba(4, 0, 0, 0.76));
+  background-color: #000000b5;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 body {
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 200;
-  line-height: 24px;
+  line-height: 1.5rem;
   font-style: normal;
-  margin: 40px;
   background-image: url("../assets/pexels-olia-danilevich-4974922.jpg");
-  background-repeat: none;
   background-size: cover;
   background-position: center;
 }
@@ -40,8 +39,8 @@ h1 {
 
 p {
   text-align: center;
-  margin-top: 8px;
-  margin-bottom: 32px;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 form {
@@ -51,7 +50,7 @@ form {
 
 input,
 select {
-  padding: 0.5rem;
+  padding: 1em;
   margin-top: 1rem;
   width: 100%;
   margin-bottom: 1rem;
@@ -60,13 +59,13 @@ select {
 textarea {
   height: 25vh;
   margin-top: 1rem;
-  padding: 1rem;
-  font-size: 18px;
+  padding: 1em;
+  font-size: 1rem;
   width: 100%;
 }
 
 .submit {
-  padding: 1rem;
+  padding: 1em;
   margin-bottom: 1.3rem;
   background-color: green;
   border: none;
@@ -96,5 +95,31 @@ textarea {
 .check9,
 .check10 {
   width: 2rem;
-  padding-left: 1rem;
+  padding-left: 1em;
+}
+
+body {
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #4f945b;
+  --sb-size: 20px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }
